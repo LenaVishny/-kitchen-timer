@@ -1,0 +1,66 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1516452391242-15957b3bb26a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=379&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: #22577E;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+#enterTime{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+#inputMinutes{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    border: #000957 solid 2px;
+    background-color: #B1D0E0;
+    color: #000957;
+    font-size: 30px;
+}
+#btnStart{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    color:white;
+    border-radius: 20px;
+    border: none;
+    background-color: #995061;
+}
+#time{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+@media all and (max-width: 500px){
+    #heading{
+        font-size: 25px;
+    }
+    #enterTime{
+        font-size: 20px;
+        text-align: center;
+    }
+    #time{
+        font-size: 40px;
+        margin: 0;
+    }
+}
+
+
